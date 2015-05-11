@@ -7,3 +7,4 @@ console.log(a);
 
 var b = 2;
 var c = 4;
+var f = 6;
