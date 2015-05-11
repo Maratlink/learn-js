@@ -1,1 +1,1 @@
-for(var i=0;;){if("1"!==prompt("Играть дальше? Если да введи 1")){alert("Все!");break}if(6*Math.random()<1){alert("финита ля комедия");break}i++}alert("Раундов сыграно "+i);
+var yearSt=prompt("Введите срок вклада"),percentage=prompt("Введите годовой процент"),summ=prompt("Введите сумму"),araarfD=summ*(percentage/100);alert(araarfD),alert(yearSt);
