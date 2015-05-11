@@ -1,0 +1,1 @@
+for(var i=0;;){if("1"!==prompt("Играть дальше? Если да введи 1")){alert("Все!");break}if(6*Math.random()<1){alert("финита ля комедия");break}i++}alert("Раундов сыграно "+i);

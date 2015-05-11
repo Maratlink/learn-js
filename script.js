@@ -1,13 +1,16 @@
-// var nameSor = prompt("Как вас зовут?");
-// alert("Привет, " + nameSor);
+var i=0;
 
-var a = "Привет, Мир!";
 
-console.log(a);
-
-var b = 2;
-var c = 4;
-var f = 6;
-
-var d = b+c+f;
-console.log(d);
+do {
+    if (prompt('Играть дальше? Если да введи 1')==='1'){
+        if ((Math.random() * 6) < 1) {
+            alert('финита ля комедия');
+            break;
+        }
+        i++;
+    } else {
+        alert('Все!');
+        break;
+    }
+}while(true);
+alert('Раундов сыграно ' + i);
