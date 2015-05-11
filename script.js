@@ -4,3 +4,5 @@
 var a = "Привет, Мир!";
 
 console.log(a);
+
+var b = 2;
