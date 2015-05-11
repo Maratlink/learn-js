@@ -3,4 +3,4 @@
 
 var a = "Привет, Мир!";
 
-console.log(a);
+console.log(a)
