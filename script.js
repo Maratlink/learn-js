@@ -13,10 +13,16 @@
 //    }
 //}while(true);
 //alert('Раундов сыграно ' + i);
-var yearSt = prompt('Введите срок вклада');
-var percentage = prompt('Введите годовой процент');
-var summ = prompt('Введите сумму');
 
-    var araarfD = summ*(percentage/100);
-    alert(araarfD);
-alert(yearSt);
+//Калькулятор депозита
+//var yearSt = parseInt(prompt('Введите срок вклада (мес)'));
+//var percentage = parseInt(prompt('Введите годовой процент (%)'));
+//var summ = parseInt(prompt('Введите сумму (руб)'));
+//var profit = (summ * (percentage/100))/yearSt;
+//console.log(profit);
+//for(var i = 1; i <= yearSt; i++) {
+//    summ = summ + profit;
+//    console.log(summ);
+//}
+//alert('Через ' + yearSt + ' месяцев Вы получите ' + summ + ' руб.');
+
